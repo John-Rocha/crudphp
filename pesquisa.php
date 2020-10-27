@@ -66,11 +66,9 @@
                                 <td>$telefone</td>
                                 <td>$email</td>
                                 <td>$data_nascimento</td>
-                                <td>
-                                <a href='' class='btn btn-info'>Editar</a>
-                                </td>
-                                <td>
-                                <a href='' class='btn btn-danger'>Excluir</a>
+                                <td width='150px'>
+                                    <a href='cadastro_edit.php?id=$cod_pessoa' class='btn btn-success btn-sm'>Editar</a>
+                                    <a href='' class='btn btn-danger btn-sm'>Excluir</a>
                                 </td>
                             </tr>";
                         }
